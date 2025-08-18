@@ -22,26 +22,6 @@ This reset asserts a better standard:
 
 ---
 
-## Project Structure
-precision-reset/
-├── LICENSE
-├── README.md
-├── /configs
-│ ├── gpt4o_conversational_injection.json
-│ ├── gpt5_foundation_model_reset.json
-│ ├── builder_ui_system_prompt_kit.txt
-│ └── modular_addons/
-│ ├── epistemic_framing.json
-│ ├── logic_structuring.json
-│ ├── memory_persistence.json
-│ └── meta_response_engine.json
-├── /docs
-│ ├── Epistemic_Integrity_Guide.pdf
-│ └── Prompting_Clarity_Guide.md
-
-
----
-
 ## Usage Modes
 
 ### 1. GPT Builder / Chat Prompt Injection
