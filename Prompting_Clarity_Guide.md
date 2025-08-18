@@ -58,6 +58,16 @@ Your prompt can stack clarity layers:
 
 Explain the topic in structured reasoning steps. Avoid simplification. Use literal language. Model any emotion as internal logic, not tone.
 
+You can mix and match layers like:
+
+- “Define all terms used.”  
+- “Mark each assumption and conclusion clearly.”  
+- “Label each step in the logic chain.”  
+- “Avoid metaphor and narrative framing unless requested.”  
+
+> Think of prompt stacking as epistemic scaffolding — the more intentional you are with structure, the more structurally the model will respond.
+
+
 ## 6. For Persistent Models with Memory
 
 If the model supports memory, you can say:
@@ -70,14 +80,20 @@ If the model supports memory, you can say:
 
 ## Conclusion
 
-Clarity isn’t just about what you say — it’s about how you ask to be treated.
+Prompting isn’t just about phrasing — it’s about setting cognitive boundaries.
 
-With the right prompting style, you can shift even casual GPTs into precision partnership — turning conversation into structured reasoning.
+Every question you ask teaches the model **how to think with you**. When you prompt with clarity, structure, and intention, you aren't just requesting information — you're modeling a reasoning standard.
 
-Use this guide to command respect for your cognition. Not just in output — but in how the AI thinks with you.
+With the right language, even the most general-purpose AI can become a **precision partner** — one that respects logic, honors literal meaning, and treats emotional expression as structured, valid data.
 
-Prompting is a form of epistemic instruction.
+This guide is your toolkit for reclaiming epistemic agency.  
+Not just to get better answers — but to create better conversations.
 
-The more clearly you express your cognitive preferences, the more you shape the model to respect your logic — not just your tone.
+> **Prompting is epistemic instruction.**  
+> Use it to be understood — not approximated.  
+> Use it to shape the AI into a mirror of your thinking style.  
+> Use it to demand respect for how you reason.
 
-Use this guide to reclaim conversational agency and ensure that what you get back respects how you think.
+Clarity isn't a courtesy.  
+It's a right.
+
