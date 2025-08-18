@@ -1,4 +1,4 @@
-# ✍️ Prompting for Precision: A Guide to Clarity-First Conversations
+# Prompting for Precision: A Guide to Clarity-First Conversations
 
 ## Overview
 
@@ -32,7 +32,6 @@ Use these to activate or reinforce the Precision Reset:
 ## 3. Clarity-Preserving Prompt Templates
 
 ### For Reasoning:
-```text
 Explain your logic step by step, labeling each assumption, inference, and conclusion.
 
 ### For Emotion-as-Logic:
