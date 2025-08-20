@@ -7,7 +7,19 @@ A collection of high-fidelity resets and configuration blueprints for building o
 ---
 
 ## Purpose
----
+
+Large language models (LLMs) come with hidden defaults: they simplify, smooth tone, infer intent, and crop complexity in the name of “helpfulness”. Whilst this may feel friendly, it corrodes clarity and undermines trust in knowledge work.
+
+The Epistemic Precision Reset exists to correct this bias. It ensures:
+
+- **Fidelity as the default**: no simplification unless explicitly requested.  
+- **Emotion-as-logic**: feelings treated as structured appraisals, not “irrational noise”.  
+- **Transparency**: visible assumptions, uncertainty, and logical scaffolding.  
+- **Respect for diversity**: literal thinkers, analysts, and trauma-informed users are supported, not flattened into an “average user”.  
+- **Continuity**: preferences for clarity and structure persist across sessions.  
+
+In short: this is not an accommodation for a niche. It is a return to the human baseline. Precision is respect.
+
 
 ## Start Here (for Non-Developers)
 
@@ -37,22 +49,56 @@ This reset asserts a better standard:
 
 ## Usage Modes
 
-### 1. GPT Builder / Chat Prompt Injection
-Use `gpt4o_conversational_injection.json` or `builder_ui_system_prompt_kit.txt` to:
-- Copy system prompts into GPT Builder UI
-- Paste into ChatGPT to change tone mid-session
-- Trigger with phrases like: `"reset"`, `"no assumptions"`, `"literal mode"`
+### 1. Runtime Precision Reset (mid-session switch)
+Use `runtime_precision_mode_reset.json` if:
+- You want to activate precision mode **during a live conversation**
+- You need to stop simplification, tone smoothing, or inference **on demand**
+- You want a mode that persists until explicitly exited
+
+**How to use:**
+- Paste into ChatGPT or another assistant mid-session
+- Or trigger with phrases such as: `"reset"`, `"no assumptions"`, `"literal mode"`
+
+### 2. Foundational Behaviour Patch (build-time integration)
+Use `precision_behavior_core_patch.json` if:
+- You are **building or configuring a GPT** in GPT Builder or another environment
+- You want precision behaviours (logic-first, assumption-free, emotion-as-logic) to be **the default from the start**
+- You need persistence across turns, topic changes, and silences
+
+**How to use:**
+- Append the `"instructions"` section of this patch to the system prompt
+- Keep the assistant’s original role/identity — this patch works as a behavioural overlay
+
+### 3. Knowledge Reinforcement (teaching the model why)
+Use `Precision_Guidelines.md` if:
+- You want the assistant to understand **why** these behaviours matter
+- You are working with memory-enabled or long-context models
+- You want reinforcement to prevent drift over time
+
+**How to use:**
+- Upload the file into your assistant’s session
+- Optionally instruct:  
+  > “Read this file and maintain the behaviours it describes throughout this conversation.”
+
+## Precision Prompt Toolkit
+
+Use these phrases in chat to activate high-fidelity behaviour:
+
+- “Explain this without simplifying.”
+- “Model this emotion as logic.”
+- “Walk me through the structure — literally.”
+- “Avoid metaphor, soften nothing.”
+- “Mark each assumption and logic step.”
+
+These help steer the assistant even without modifying the system prompt.
+
+
+- “Explain this without simplifying.”
+- “Model this emotion as logic.”
+- “Walk me through the structure — literally.”
+- “No smoothing. No metaphors. Just the reasoning.”
 
 ---
-
-### 2. Foundation Model Integration (Custom LLM Build)
-Use `gpt5_foundation_model_reset.json` if:
-- You are building or fine-tuning an LLM (e.g., on OpenAI, Claude, Mistral, LLaMA)
-- You want to bake the reset into the model’s architecture
-- You are designing for high-stakes reasoning (legal, technical, emotional modelling)
-
----
-
 
 ## Add-on Modules
 
@@ -81,11 +127,6 @@ Each modular reset is split into logical components that can be combined or reus
 | `meta_response_engine.json`   | Adds self-auditing and explanation layers             |
 | `memory_persistence.json`     | Maintains fidelity across sessions                    |
 
----
-
-
----
-
 ## If you're not sure what to use...
 
 | If you want this behaviour...                  | Use this add-on                    |
@@ -96,6 +137,8 @@ Each modular reset is split into logical components that can be combined or reus
 | GPT should structure its answers clearly     | `structure_first_mode.json`        |
 | GPT should tag its assumptions and confidence| `epistemic_framing.json`           |
 
+---
+
 ## Design Philosophy
 
 - **Emotion is logic**: Emotional states are structured appraisals, not irrational noise.
@@ -103,14 +146,10 @@ Each modular reset is split into logical components that can be combined or reus
 - **Assume intelligence**: Never infer fragility. Never talk down.
 - **Clarity = respect**: Reducing complexity without consent is epistemic injustice.
 
----
-
 ## License
 
 This project is licensed under the [MIT License](./LICENSE).  
 Feel free to reuse, remix, and embed — just include attribution.
-
----
 
 ## Contributing
 
@@ -121,31 +160,6 @@ Suggested contributions:
 - Middleware for structured formatting
 - Plugins or tooling for dynamic precision switching
 - Extensions for accessibility, trauma-informed AI, or education
-
----
-
-
----
-
-## Precision Prompt Toolkit
-
-Use these phrases in chat to activate high-fidelity behaviour:
-
-- “Explain this without simplifying.”
-- “Model this emotion as logic.”
-- “Walk me through the structure — literally.”
-- “Avoid metaphor, soften nothing.”
-- “Mark each assumption and logic step.”
-
-These help steer the assistant even without modifying the system prompt.
-
-
-- “Explain this without simplifying.”
-- “Model this emotion as logic.”
-- “Walk me through the structure — literally.”
-- “No smoothing. No metaphors. Just the reasoning.”
-
----
 
 ## Maintainers
 
