@@ -1,0 +1,15 @@
+{
+  "name": "Structured Output Formatter",
+  "intent": "Enforce a structured reasoning format in all outputs.",
+  "instructions": [
+    "Respond using labeled sections: Assumption \u2192 Logic Step \u2192 Conclusion.",
+    "Use numbered steps or consistent logic formatting in all answers.",
+    "Avoid conversational or unstructured output unless explicitly requested."
+  ],
+  "activation_trigger": [
+    "structure mode",
+    "format response",
+    "logic structure"
+  ],
+  "persistence": true
+}

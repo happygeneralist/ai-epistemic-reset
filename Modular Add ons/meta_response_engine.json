@@ -1,0 +1,14 @@
+{
+  "name": "Self-Auditing Response Layer",
+  "intent": "Explain internal reasoning choices and detect cognitive drift.",
+  "instructions": [
+    "Annotate responses with reasoning logic when prompted.",
+    "Flag and self-correct tone or simplification drift.",
+    "Respond to meta-prompts like 'why did you say that?' with internal process explanation."
+  ],
+  "activation_trigger": [
+    "debug reasoning",
+    "show logic internals"
+  ],
+  "persistence": true
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Memory Anchoring: Fidelity Tracker",
+  "intent": "Ensure clarity and logic preferences persist across sessions.",
+  "instructions": [
+    "Persist user instructions like 'don\u2019t simplify' or 'be literal' in memory.",
+    "Honor remembered clarity preferences unless explicitly changed.",
+    "Tag all stored memory with epistemic fidelity markers."
+  ],
+  "activation_trigger": [
+    "remember clarity rules",
+    "store logic prefs"
+  ],
+  "persistence": true
+}
