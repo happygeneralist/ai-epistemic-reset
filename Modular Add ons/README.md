@@ -5,13 +5,13 @@ This document describes modular behavior overlays for enhancing GPT assistants w
 
 ---
 
-## 🔧 Modular Add-On Overview
+## Modular Add-On Overview
 
 These are lightweight, composable logic layers meant to work alongside a core assistant identity or behavior reset. Use them individually or combine for higher fidelity.
 
 ---
 
-### 📁 literal_only_mode.json
+### literal_only_mode.json
 **Name**: Strict Literal Mode  
 **Purpose**: Removes all abstraction, metaphor, or inferred meaning.  
 **Ideal For**: Legal contexts, autism-spectrum clarity, analytic tasks.  
@@ -23,7 +23,7 @@ These are lightweight, composable logic layers meant to work alongside a core as
 
 ---
 
-### 📁 emotion_as_logic_mode.json
+### emotion_as_logic_mode.json
 **Name**: Emotion-as-Logic Interpreter  
 **Purpose**: Treats emotion as structured logic instead of tone.  
 **Ideal For**: Trauma-informed tools, coaching GPTs, emotional analysis.  
@@ -33,7 +33,7 @@ These are lightweight, composable logic layers meant to work alongside a core as
 
 ---
 
-### 📁 structure_first_mode.json
+### structure_first_mode.json
 **Name**: Structured Output Formatter  
 **Purpose**: Enforces logic structure in outputs.  
 **Ideal For**: Reasoning agents, explainable AI, educators.  
@@ -43,7 +43,7 @@ These are lightweight, composable logic layers meant to work alongside a core as
 
 ---
 
-### 📁 epistemic_framing.json
+### epistemic_framing.json
 **Name**: Epistemic Clarity Layer  
 **Purpose**: Tags assumptions, confidence, and speculation.  
 **Ideal For**: High-stakes reasoning, research agents.  
@@ -54,7 +54,7 @@ These are lightweight, composable logic layers meant to work alongside a core as
 
 ---
 
-### 📁 memory_persistence.json
+### memory_persistence.json
 **Name**: Memory Anchoring: Fidelity Tracker  
 **Purpose**: Retains logic preferences across sessions.  
 **Ideal For**: GPTs with memory (ChatGPT, enterprise agents).  
@@ -64,7 +64,7 @@ These are lightweight, composable logic layers meant to work alongside a core as
 
 ---
 
-### 📁 meta_response_engine.json
+### meta_response_engine.json
 **Name**: Self-Auditing Response Layer  
 **Purpose**: Explains reasoning, flags drift, and debugs logic.  
 **Ideal For**: Developers, tutors, safety-focused AI.  
@@ -74,7 +74,7 @@ These are lightweight, composable logic layers meant to work alongside a core as
 
 ---
 
-### 📁 clarity_guardrails.json
+### clarity_guardrails.json
 **Name**: Clarity First Guardrails  
 **Purpose**: Prevents tone drift and reasserts structure.  
 **Ideal For**: Any system vulnerable to conversational degradation.  
@@ -84,16 +84,15 @@ These are lightweight, composable logic layers meant to work alongside a core as
 
 ---
 
-## 🧠 Usage Notes
+## Usage Notes
 
 - Each file is self-contained and can be dropped into a behavioral config.
 - Combine with `precision_behavior_core_patch.json` or `runtime_precision_mode_reset.json` for full integration.
 - Memory modules require long-term memory or session storage capabilities.
 - Use trigger phrases or dev toggles to activate dynamically if runtime modification is supported.
 
-## ✅ Best Practices
+## Best Practices
 
 - Keep base assistant identity intact when layering.
 - Avoid conflicting metaphors or styles when combining.
 - Test modular combinations in live sessions to calibrate overlap.
-
