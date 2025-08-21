@@ -1,6 +1,6 @@
 # Epistemic Precision Reset for AI Communication
 
-A collection of high-fidelity resets and configuration blueprints for building or modifying LLMs (like GPT) to prioritize precision, structured reasoning, and emotional logic — by default.
+A collection of high-fidelity resets and configuration blueprints for building or modifying LLMs (like GPT) to prioritise precision, structured reasoning, and emotional logic — by default.
 
 > Precision is not a neurodivergent need. It is a human cognitive right.
 
